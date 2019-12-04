@@ -1,10 +1,13 @@
 URxvt.cursorBlink:	true
+URxvt.scrollBar_right:      true
+URxvt.scrollBar_floating:   true
+URxvt.scrollstyle:          plain
 !! urxvt opener
 URxvt.url-launcher: xdg-open
 
-URxvt.font:	xft:Dejavu Sans Mono-14,xft:IPAGothic
-URxvt.foreground:	white
-URxvt.background:	black
+URxvt.font:	xft:Dejavu Sans Mono-14,\
+		xft:Noto Sans CJK JP,\
+		xft:IPAexGothic
 URxvt.letterSpace:	-1
 !URxvt.linkeSpace:	0
 
@@ -25,3 +28,28 @@ URxvt.keysym.M-o: matcher:last
 URxvt.keyboard-select.clipboard: true
 URxvt.keysym.M-Escape: perl:keyboard-select:activate
 URxvt.keysym.M-s: perl:keyboard-select:search
+
+!! Color Scheme and Opacity - gruvbox-dark https://github.com/morhetz/gruvbox
+URxvt.depth:                32
+URxvt.color0:               #282828
+URxvt.color1:               #cc241d
+URxvt.color2:               #98971a
+URxvt.color3:               #d79921
+URxvt.color4:               #458588
+URxvt.color5:               #b16286
+URxvt.color6:               #689d6a
+URxvt.color7:               #a89984
+URxvt.color8:               #928374
+URxvt.color9:               #fb4934
+URxvt.color10:              #b8bb26
+URxvt.color11:              #fabd2f
+URxvt.color12:              #83a598
+URxvt.color13:              #d3869b
+URxvt.color14:              #8ec07c
+URxvt.color15:              #ebdbb2
+URxvt.foreground:           #ebdbb2
+URxvt.background:           #282828
+URxvt.colorIT:              #8ec07c
+URxvt.colorBD:              #d5c4a1
+URxvt.colorUL:              #83a598
+URxvt.scrollColor:          #504945
