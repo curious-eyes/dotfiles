@@ -33,7 +33,7 @@ if [ -d /etc/X11/xinit/xinitrc.d ] ; then
 fi
 
 # ディスプレイ解像度
-intern=eDP1
+intern=eDP-1
 xrandr --output "$intern" --mode 2048x1152
 
 # unzip-iconv
