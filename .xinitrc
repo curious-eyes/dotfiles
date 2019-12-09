@@ -46,7 +46,7 @@ export GTK_IM_MODULE='fcitx'
 export QT_IM_MODULE='fcitx'
 export XMODIFIERS='@im=fcitx'
 fcitx
-exec i3 -V >> ~/.config/i3/i3log-$(date +'%F-%k-%M-%S') 2>&1
+exec i3 -V >> ~/.config/i3/log/$(date +'%F-%H-%M-%S') 2>&1
 
 # twm &
 # xclock -geometry 50x50-1+1 &
