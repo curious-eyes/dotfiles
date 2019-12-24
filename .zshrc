@@ -212,3 +212,18 @@ case ${OSTYPE} in
         alias ls='ls -F --color=auto'
         ;;
 esac
+
+### Added by Zplugin's installer
+source "$HOME/.zplugin/bin/zplugin.zsh"
+autoload -Uz _zplugin
+(( ${+_comps} )) && _comps[zplugin]=_zplugin
+### End of Zplugin installer's chunk
+
+### Zplugin configurations
+zplugin light zsh-users/zsh-autosuggestions
+zplugin light zdharma/fast-syntax-highlighting
+# zplugin ice pick"async.zsh" src"pure.zsh"; zplugin light sindresorhus/pure
+
+autoload -U compinit
+compinit
+### End of Zplugin
