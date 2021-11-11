@@ -5,11 +5,15 @@ URxvt.scrollstyle:          plain
 !! urxvt opener
 URxvt.url-launcher: xdg-open
 
-URxvt.font:	xft:Dejavu Sans Mono-14,\
+URxvt.font:	xft:Dejavu Sans Mono-5,\
 		xft:Noto Sans CJK JP,\
 		xft:IPAexGothic
 URxvt.letterSpace:	-1
 !URxvt.linkeSpace:	0
+
+! disable ISO14755
+URxvt.iso14755: false
+URxvt.iso14755_52: false
 
 !!
 !! urxvt extensions

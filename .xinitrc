@@ -45,7 +45,7 @@ export DefaultImModule='fcitx'
 export GTK_IM_MODULE='fcitx'
 export QT_IM_MODULE='fcitx'
 export XMODIFIERS='@im=fcitx'
-fcitx
+fcitx5 &
 exec i3 -V >> ~/.config/i3/log/$(date +'%F-%H-%M-%S') 2>&1
 
 # twm &

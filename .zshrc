@@ -229,11 +229,9 @@ compinit
 ### End of Zplugin
 [[ -s "/home/shuhei/.gvm/scripts/gvm" ]] && source "/home/shuhei/.gvm/scripts/gvm"
 
-### nvm
-export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
-[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
-
 ### php-env
 export PATH="$HOME/.phpenv/bin:$PATH"
 eval "$(phpenv init -)"
+
+export PATH="$HOME/.poetry/bin:$PATH"
+export PATH="$HOME/.jmeter/bin:$PATH"
