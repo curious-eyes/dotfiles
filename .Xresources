@@ -5,7 +5,7 @@ URxvt.scrollstyle:          plain
 !! urxvt opener
 URxvt.url-launcher: xdg-open
 
-URxvt.font:	xft:Dejavu Sans Mono-5,\
+URxvt.font:	xft:Dejavu Sans Mono-14,\
 		xft:Noto Sans CJK JP,\
 		xft:IPAexGothic
 URxvt.letterSpace:	-1
@@ -58,3 +58,11 @@ URxvt.colorIT:              #8ec07c
 URxvt.colorBD:              #d5c4a1
 URxvt.colorUL:              #83a598
 URxvt.scrollColor:          #504945
+
+Xft.dpi: 110
+Xft.autohint: 0
+Xft.lcdfilter:  lcddefault
+Xft.hintstyle:  hintfull
+Xft.hinting: 1
+Xft.antialias: 1
+Xft.rgba: rgb
