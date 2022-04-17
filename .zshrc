@@ -232,6 +232,14 @@ compinit
 ### php-env
 export PATH="$HOME/.phpenv/bin:$PATH"
 eval "$(phpenv init -)"
-
-export PATH="$HOME/.poetry/bin:$PATH"
 export PATH="$HOME/.jmeter/bin:$PATH"
+
+### for sbt console
+# sbt コマンド実行時に下記エラーになる問題対応
+# [ERROR] Failed to construct terminal; falling back to unsupported
+# java.lang.NumberFormatException: For input string: "0x100"
+export TERM="rxvt-unicode"
+# コメントアウトすれば、export TERM="rxvt-unicode-256color" になるはず
+
+### poetry (python)
+export PATH="$HOME/.poetry/bin:$PATH"
